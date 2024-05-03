@@ -1,5 +1,5 @@
 console.log("server will run here");
-// console.log(date());
+// console.log(new Date());
 
 //create a new repo
 // add .readme .gitignore files
