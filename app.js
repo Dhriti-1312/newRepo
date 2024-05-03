@@ -1,4 +1,11 @@
 console.log("server will run here");
+const app = require('express')();
+app.get('/',(req,res) => {
+    req.json({message : "server on aws running"})
+})
+app.listen(7000,()=>{
+    console.log("server on port 7000");
+})
 // console.log(new Date());
 
 //create a new repo
